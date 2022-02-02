@@ -28,11 +28,11 @@ public class Kassir {
 
                 //Кассир может создавать/изменять/удалять данные таблицы билетов.
 //            endless();
-                System.out.println("Waiting request from kassir");
+               // System.out.println("Waiting request from kassir");
                 if (choice.equals("1")) {
                     pd = new PackageData("LIST FLIGHTS", clientType, null, null, null, null, null, null, null, null);
                     outputStream.writeObject(pd);
-                    System.out.println("Waiting request from server");
+                   // System.out.println("Waiting request from server");
                     pd = (BigProject.PackageData) inputStream.readObject();
                     if(pd.getFlights().size()>0) {
                         ArrayList<Flights> flights = pd.getFlights();
