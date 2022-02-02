@@ -21,7 +21,7 @@ public class Admin {
           System.out.println("PRESS [2] TO LIST AIRCRAFTS");
           System.out.println("PRESS [3] TO LIST FLIGHTS");
 
-          System.out.println("PRESS [4] TO ADD CITI");
+          System.out.println("PRESS [4] TO ADD CITY");
           System.out.println("PRESS [5] TO ADD AIRCRAFT");
           System.out.println("PRESS [6] TO ADD FLIGHT");
 
